@@ -1008,7 +1008,7 @@ namespace Symbols
 
 	const std::vector<Symbol> CBaseClient_SetSignonStateSym = {
 		Symbol::FromName("_ZN11CBaseClient14SetSignonStateEii"),
-		Symbol::FromSignature("\x55\x8B\x87\xA8\x01\x00\x00"), // 55 8B 87 A8 01 00 00
+		Symbol::FromSignature("\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x83\xEC\x08"), 
 	};
 
 	const std::vector<Symbol> CBaseServer_IsMultiplayerSym = {
